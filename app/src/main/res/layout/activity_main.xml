@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="chencheng.bwie.com.chencheng20171130_flowlayout.MainActivity">
+
+  <chencheng.bwie.com.chencheng20171130_flowlayout.FlowLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="全部" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="资源丰富（20）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="牛人多（12）" />
+    <TextView
+
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帮助大（6）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="技术含量告（3）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="博客好（2）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="原创不少（1）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="博客内容多（2）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="东西好（3）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学生少（1）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="漏洞多（1）" />
+    <TextView
+        android:background="@drawable/flag_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="很实用（9）" />
+  </chencheng.bwie.com.chencheng20171130_flowlayout.FlowLayout>
+
+</RelativeLayout>
